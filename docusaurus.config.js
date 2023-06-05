@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/SC_logo.jpeg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://www.steelecharles.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   organizationName: 'steele-charles', // Usually your GitHub org/user name.
   projectName: 'steele-charles', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -55,10 +55,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      stylesheets: [
-        '/css/custom.css',
-        '/pages/index.module.css'
-      ],
       image: 'img/SC_logo.jpeg',
       navbar: {
         title: 'Steele Charles',
