@@ -4,21 +4,21 @@
  */
 
 .heroBanner {
-  padding: 25% 25%;
+  padding: 10% 0%;
   text-align: center;
   position: relative;
   color: #e1dcd3;
   background-image: url("../../static/img/green_logo.jpg");
   background-position: relative;
   background-position: center;
-  background-size: 75%;
+  background-size: 30%;
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 14rem;
-    align-self: center;
+    padding: 25%;
+    background-size: 75%;
   }
 }
 
