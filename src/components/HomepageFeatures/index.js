@@ -60,3 +60,19 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
+export function GoldLine() {
+    return (
+        <div>
+            <hr className="gold-line" />
+        </div>
+    );
+}
+
+export function Testimonial() {
+    return (
+        <div>
+            <h1 className="testimonials">Testimonials</h1>
+        </div>
+    );
+}
